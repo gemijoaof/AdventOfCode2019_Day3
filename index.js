@@ -91,9 +91,9 @@ const calcMDistance = array => {
   return closestIntersection(listIntersections);
 };
 
-console.time('Time:');
+console.time('Time part1');
 console.log(calcMDistance(arrayinputDirections));
-console.timeEnd('Time:');
+console.timeEnd('Time part1');
 
 //Part 2
 const calcMinCombinedSteps = listCombinedSteps => {
@@ -149,6 +149,6 @@ const fewestCombinedSteps = arrayWires => {
   return calcMinCombinedSteps(listCombinedSteps);
 };
 
-console.time('Time:');
+console.time('Time part2');
 console.log(fewestCombinedSteps(arrayinputDirections));
-console.timeEnd('Time:');
+console.timeEnd('Time part2');
